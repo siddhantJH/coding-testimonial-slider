@@ -1,0 +1,204 @@
+body {
+  overflow: hidden;
+  transition: 0.1s;
+}
+
+.quote {
+  position: relative;
+  left: 200px;
+  top: 200px;
+}
+
+.intro p {
+  word-spacing: 1%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 1.5;
+  position: absolute;
+  width: 60%;
+  top: 130px;
+  z-index: 1;
+}
+
+.intro h4 {
+  font-family: 'Inter', sans-serif;
+  display: inline;
+  bottom: 140px;
+}
+
+.Testimonial-1 .intro {
+  padding-left: 5%;
+  width: 100%;
+  background-image: url('../images/pattern-bg.svg');
+  background-repeat: no-repeat;
+  background-position: 900px 0px;
+  background-size: 35%;
+}
+
+.Testimonial-1 img {
+  display: block;
+  height: 82%;
+  position: relative;
+  left: 60%;
+  top: 45px;
+}
+
+.Testimonial-1, .intro {
+  height: 550px;
+}
+
+.name {
+  position: absolute;
+  bottom: 23%;
+}
+
+.roundup {
+  background-color: white;
+  width: 85px;
+  position: absolute;
+  left: 63%;
+  bottom: 15%;
+  border-radius: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.profession {
+  position: absolute;
+  bottom: 120px;
+  left: 260px;
+  color: hsl(240, 18%, 77%);
+  font-weight: 200;
+}
+
+.Second_person, .First_person {
+  position: absolute;
+  width: 100%;
+}
+
+.prev, .next {
+  border: none;
+  width: 40px;
+  height: 45px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.prev:focus, .next:focus {
+  outline: 0;
+}
+
+.prev:hover, .next:hover {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.prevImg, .nextImg {
+  border-style: none;
+}
+
+.Testimonial-1 {
+  transition: 0.6s;
+}
+
+@media (max-width:1200px) {
+  .quote {
+    top: 650px;
+    left: 155px;
+  }
+
+  .Testimonial-1 {
+    transform: translateX(0px);
+    height: auto;
+  }
+
+  .tanya {
+    left: 13px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+
+  .roundup {
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 425px;
+    position: relative;
+  }
+
+  .curve {
+    left: 0;
+    width: 443px;
+    position: absolute;
+    top: 158%;
+  }
+
+  .First_person p {
+    /* width: 379px; */
+    width: 379px;
+    font-size: 20px;
+    width: 401px;
+    text-align: center;
+    top: 600px;
+    margin: auto;
+    left: 35px;
+  }
+
+  .intro .name {
+    margin: auto;
+    left: 139px;
+    bottom: 193px;
+  }
+
+  .intro .profession {
+    left: 150px;
+    bottom: 137px;
+  }
+
+  .First_person img {
+    top: 55px;
+    left: 0px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+
+  .First_person {
+    left: 0px;
+    height: 1000px;
+    width: auto;
+  }
+
+  .Second_person {
+    left: 435px;
+    margin: 3%
+  }
+
+  .Second_person p {
+    width: 379px;
+    font-size: 20px;
+    width: 401px;
+    text-align: center;
+    top: 600px;
+    margin: auto;
+    left: 20px;
+  }
+
+  .Second_person img {
+    left: -13px;
+    width: 97%;
+    height: auto;
+    margin: auto;
+  }
+
+  .Second_person .name {
+    bottom: -250px;
+  }
+  .attribution
+  {
+   position: relative;
+   top:950px;
+   left:15px;
+  }
+}
